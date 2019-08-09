@@ -1,3 +1,5 @@
+添加父节点配置项替换掉原有的'document.body' 当配置指定时，使用指定元素。否则尝试使用tag名为 ‘ion-nav-view’的第一个元素，如果不存在，则使用‘document.body’
+
 <p align="center"><img width="130" src="https://github.com/onlyhom/img-folder/blob/master/png/m_logo_orange.png?raw=true"></p>
 <h1 align="center" >mobileSelect.js</h1>
 <p align="center">
@@ -14,7 +16,7 @@
 
 一款多功能的移动端滚动选择器，支持单选到多选、支持多级级联、提供自定义回调函数、提供update函数二次渲染、重定位函数、兼容pc端拖拽等等..
 
- [【English documents】](https://github.com/onlyhom/mobileSelect.js)
+ [【English documents】](https://github.com/shuto-cn/ionic-mobile-select/blob/master/README.md)
 
 ## 特性
 

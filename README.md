@@ -1,3 +1,5 @@
+Add the parent node configuration item to replace the original'document. body'and use the specified element when the configuration is specified. Otherwise, try using the first element tag named'ion-nav-view', and if it doesn't exist, use'document. body'.
+
 <p align="center"><img width="130" src="https://github.com/onlyhom/img-folder/blob/master/png/m_logo_orange.png?raw=true"></p>
 <h1 align="center" >mobileSelect.js</h1>
 <p align="center">
@@ -14,7 +16,7 @@
 
 A multi-function mobile phone scrolling selector, support single to multi-select, support multi-level cascade, provide custom callback function, provide update function redraw, relocation function, compatible pc drag and so on.
 
-[【查看中文文档】](https://github.com/onlyhom/mobileSelect.js/blob/master/docs/README-CN.md)
+[【查看中文文档】](https://github.com/shuto-cn/ionic-mobile-select/blob/master/docs/README-CN.md)
 
 ## Features
 

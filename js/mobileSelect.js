@@ -28,6 +28,7 @@
 		this.curDistance = [];
 		this.clickStatus = false;
 		this.isPC = true;
+		this.parent = config.parent || document.getElementsByTagName('ion-nav-view')[0] || document.body;
 		this.init(config);
 	}
 	MobileSelect.prototype = {
@@ -207,7 +208,7 @@
 		                '</div>'+
 		            '</div>'+
 		        '</div>';
-		    document.body.appendChild(_this.mobileSelect);
+		    this.parent.appendChild(_this.mobileSelect);
 
 			//根据数据长度来渲染
 
